@@ -10,7 +10,7 @@ const ReviewsSchema = require('./models/reviewsSchema.js')
 const reviewsSeedData = require('./models/reviewsData.js')
 
 
-app.set("port",process.env.PORT || 3000)
+app.set("port",process.env.PORT || 3001)
 
 // MIDDLEWARE
 app.use(express.json())
