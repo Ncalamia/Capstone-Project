@@ -36,7 +36,7 @@ const MONGODB_URI = process.env.MONGODB_URI;
 //Port
 //___________________
 // Allow use of Heroku's port or your own local port, depending on the environment
-// const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3001;
 
 //For connection to mongoDB Atlas
 mongoose.connect( MONGODB_URI, {
